@@ -56,7 +56,7 @@
 			</audio>
 		</div>
 		<footer>
-			<p class="magfest-logo"><a href="http://magfest.org/" target="_blank"><img class="img-responsive" style="margin: 0 auto;" src="/img/magfest-logo.png" alt="MAGFest"></a></p>
+			<p class="magfest-logo"><a href="http://magfest.org/" target="_blank"><img class="img-responsive" style="margin: 0 auto;" src="/img/magfest-logo.png" alt="MAGFest" width="345" height="65"></a></p>
 		</footer>
 
 		<script src="/js/app.min.js"></script>
