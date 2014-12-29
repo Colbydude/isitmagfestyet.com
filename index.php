@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<title>Is It MAGFest Yet?</title>
 		<meta name="description" content="Is It MAGFest Yet? The answer to the question everyone wants to know.">
 		<meta name="keywords" content="is, it, MAG, mag, magfest, MAGFest, yet, please, Music and Gaming Festival">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="http://isitmagfestyet.com" rel="canonical">
+
+		<meta property="og:title" content="Is It MAGFest Yet?">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="http://isitmagfestyet.com" />
+		<meta property="og:image" content="/img/magfest-logo.png">
+		<meta property="og:site_name" content="Is It MAGFest Yet?">
+		<meta property="og:description" content="Is It MAGFest Yet? The answer to the question everyone wants to know.">
+
 		<link href="/css/app.min.css" rel="stylesheet">
 		<link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -18,6 +29,7 @@
 			ga('create', 'UA-44795853-1', 'isitmagfestyet.com');
 			ga('send', 'pageview');
 		</script>
+
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -46,7 +58,7 @@
 		<footer>
 			<p class="magfest-logo"><a href="http://magfest.org/" target="_blank"><img class="img-responsive" style="margin: 0 auto;" src="/img/magfest-logo.png" alt="MAGFest"></a></p>
 		</footer>
-		<!-- Javascript -->
+
 		<script src="/js/app.min.js"></script>
 	</body>
 </html>
