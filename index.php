@@ -46,6 +46,11 @@
 					echo '<h1 class="almost">ALMOST</h1>';
 				else if (date('Ymd', strtotime("2015-01-27")) == date('Ymd'))
 					echo '<h1 class="just-missed-it">JUST MISSED IT</h1>';
+				else if (date('m', strtotime('02')) == date('m'))
+					echo'
+						<h1 class="yes">PMD</h1>
+						<p><a href="http://youtu.be/h8CfH8uyJT4">What is PMD?</a></p>
+					';
 				else
 					echo '<h1 class="no">NO</h1>';
 			?>
