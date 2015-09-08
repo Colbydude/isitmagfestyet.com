@@ -4,21 +4,21 @@ var timer;
 
 $(document).keyup(function(e)
 {
-	input += e.which;
+    input += e.which;
 
-	clearTimeout(timer);
-	timer = setTimeout(function() { input = ""; }, 2000);
+    clearTimeout(timer);
+    timer = setTimeout(function() { input = ""; }, 2000);
 
-	check_input();
+    check_input();
 });
 
 function check_input()
 {
-	if (input == secret)
-	{
-		var sound = $("#audio")[0];
+    if (input == secret)
+    {
+        var sound = $("#audio")[0];
 
-		sound.load();
-		sound.play();
-	}
+        sound.load();
+        sound.play();
+    }
 }
