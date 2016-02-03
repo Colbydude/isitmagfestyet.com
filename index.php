@@ -3,19 +3,19 @@
     $result = 'no';
 
     // MAG Classic.
-    if (date('Ymd', strtotime('2015-09-11')) == date('Ymd') || date('Ymd', strtotime('2015-09-12')) == date('Ymd') || date('Ymd', strtotime('2015-09-13')) == date('Ymd'))
-    {
+    if (date('Ymd', strtotime('2015-09-11')) == date('Ymd') || date('Ymd', strtotime('2015-09-12')) == date('Ymd') || date('Ymd', strtotime('2015-09-13')) == date('Ymd')) {
         $magclassic = true;
         $result = 'sort of';
     }
 
     // MAG 2016 Dates.
-    if (date('Ymd', strtotime('2016-02-18')) == date('Ymd') || date('Ymd', strtotime('2016-02-19')) == date('Ymd') || date('Ymd', strtotime('2016-02-20')) == date('Ymd') || date('Ymd', strtotime('2016-02-21')) == date('Ymd'))
+    if (date('Ymd', strtotime('2016-02-18')) == date('Ymd') || date('Ymd', strtotime('2016-02-19')) == date('Ymd') || date('Ymd', strtotime('2016-02-20')) == date('Ymd') || date('Ymd', strtotime('2016-02-21')) == date('Ymd')) {
         $result = 'yes';
-    else if (date('Ymd', strtotime('2016-02-17')) == date('Ymd'))
+    } elseif (date('Ymd', strtotime('2016-02-17')) == date('Ymd')) {
         $result = 'almost';
-    else if (date('Ymd', strtotime('2016-02-22')) == date('Ymd'))
+    } elseif (date('Ymd', strtotime('2016-02-22')) == date('Ymd')) {
         $result = 'just missed it';
+    }
 ?>
 
 <!DOCTYPE html>
@@ -41,9 +41,9 @@
         <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
 
         <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            (function(m,a,g,f,e,s,t){m['GoogleAnalyticsObject']=e;m[e]=m[e]||function(){
+                (m[e].q=m[e].q||[]).push(arguments)},m[e].l=1*new Date();s=a.createElement(g),
+                t=a.getElementsByTagName(g)[0];s.async=1;s.src=f;t.parentNode.insertBefore(s,t)
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
             ga('create', 'UA-44795853-1', 'isitmagfestyet.com');
