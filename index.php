@@ -28,11 +28,11 @@
         <title>Is It MAGFest Yet?</title>
         <meta name="description" content="Is It MAGFest Yet? The answer to the question everyone wants to know.">
         <meta name="keywords" content="is, it, MAG, mag, magfest, MAGFest, yet, please, Music and Gaming Festival">
-        <link href="http://isitmagfestyet.com" rel="canonical">
+        <link href="https://isitmagfestyet.com" rel="canonical">
 
         <meta property="og:title" content="Is It MAGFest Yet?">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="http://isitmagfestyet.com">
+        <meta property="og:url" content="https://isitmagfestyet.com">
         <meta property="og:image" content="/img/magfest-logo.png">
         <meta property="og:site_name" content="Is It MAGFest Yet?">
         <meta property="og:description" content="Is It MAGFest Yet? The answer to the question everyone wants to know.">
