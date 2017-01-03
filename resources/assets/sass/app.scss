@@ -1,16 +1,16 @@
 @import "variables";
 
-@import "bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/variables";
-@import "bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins";
-@import "bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/normalize";
-@import "bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/print";
-@import "bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/scaffolding";
-@import "bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/type";
-@import "bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/grid";
-@import "bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/utilities";
-@import "bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/responsive-utilities";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/print";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
 
-@import "bower_components/open-sans-fontface/open-sans.scss";
+@import "node_modules/open-sans-fontface/open-sans.scss";
 
 html, body, .offset
 {

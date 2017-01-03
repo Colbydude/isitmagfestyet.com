@@ -1,19 +1,19 @@
 <?php
-    $magclassic = false;
     $result = 'no';
 
-    // MAG Classic.
-    if (date('Ymd', strtotime('2015-09-11')) == date('Ymd') || date('Ymd', strtotime('2015-09-12')) == date('Ymd') || date('Ymd', strtotime('2015-09-13')) == date('Ymd')) {
-        $magclassic = true;
-        $result = 'sort of';
-    }
+    // MAG 2017 Dates.
+    $dates = [
+        '2017-01-05',
+        '2017-01-06',
+        '2017-01-07',
+        '2017-01-08'
+    ];
 
-    // MAG 2016 Dates.
-    if (date('Ymd', strtotime('2016-02-18')) == date('Ymd') || date('Ymd', strtotime('2016-02-19')) == date('Ymd') || date('Ymd', strtotime('2016-02-20')) == date('Ymd') || date('Ymd', strtotime('2016-02-21')) == date('Ymd')) {
+    if (in_array(date('Y-m-d'), $dates)) {
         $result = 'yes';
-    } elseif (date('Ymd', strtotime('2016-02-17')) == date('Ymd')) {
+    } elseif (date('Y-m-d') == '2017-01-04') {
         $result = 'almost';
-    } elseif (date('Ymd', strtotime('2016-02-22')) == date('Ymd')) {
+    } elseif (date('Y-m-d') == '2017-01-09') {
         $result = 'just missed it';
     }
 ?>
@@ -37,7 +37,7 @@
         <meta property="og:site_name" content="Is It MAGFest Yet?">
         <meta property="og:description" content="Is It MAGFest Yet? The answer to the question everyone wants to know.">
 
-        <link href="/css/app.min.css" rel="stylesheet">
+        <link href="/css/app.css" rel="stylesheet">
         <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
 
         <script>
@@ -56,7 +56,7 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body class="text-center <?php echo $magclassic ? 'magclassic' : ''; ?>">
+    <body class="text-center">
         <div class="offset"></div>
         <div class="container home">
             <h1 class="<?php echo str_replace(' ', '-', $result); ?>"><?php echo strtoupper($result); ?></h1>
@@ -67,13 +67,13 @@
             </audio>
         </div>
         <footer>
-            <p class="<?php echo $magclassic ? 'magclassic-logo' : 'magfest-logo'; ?>">
-                <a href="<?php echo $magclassic ? 'http://classic.magfest.org' : 'http://magfest.org'; ?>" target="_blank">
-                    <img class="img-responsive" src="/img/<?php echo $magclassic ? 'magclassic-logo' : 'magfest-logo'; ?>.png" alt="MAGFest" <?php echo $magclassic ? 'width="640" height="395"' : 'width="345" height="65"'; ?>>
+            <p class="magfest-logo">
+                <a href="http://magfest.org" target="_blank">
+                    <img class="img-responsive" src="/img/magfest-logo.png" alt="MAGFest" width="345" height="65">
                 </a>
             </p>
         </footer>
 
-        <script src="/js/app.min.js"></script>
+        <script src="/js/app.js"></script>
     </body>
 </html>

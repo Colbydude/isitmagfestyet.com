@@ -1,3 +1,5 @@
+window.$ = window.jQuery = require('jquery');
+
 var secret = "3838404037393739666513";
 var input = "";
 var timer;

@@ -1,6 +1,6 @@
-/.idea
-/app/cache
-/bower_components
 /node_modules
+/public/css
+/public/fonts
+/public/js
 .DS_Store
 Thumbs.db
