@@ -1,19 +1,18 @@
 <?php
     $result = 'no';
 
-    // MAG 2017 Dates.
+    // MAGWest 2017 Dates.
     $dates = [
-        '2017-01-05',
-        '2017-01-06',
-        '2017-01-07',
-        '2017-01-08'
+        '2017-08-25',
+        '2017-08-26',
+        '2017-08-27',
     ];
 
     if (in_array(date('Y-m-d'), $dates)) {
         $result = 'yes';
-    } elseif (date('Y-m-d') == '2017-01-04') {
+    } elseif (date('Y-m-d') == '2017-08-24') {
         $result = 'almost';
-    } elseif (date('Y-m-d') == '2017-01-09') {
+    } elseif (date('Y-m-d') == '2017-08-28') {
         $result = 'just missed it';
     }
 ?>
@@ -68,8 +67,8 @@
         </div>
         <footer>
             <p class="magfest-logo">
-                <a href="http://magfest.org" target="_blank">
-                    <img class="img-responsive" src="/img/magfest-logo.png" alt="MAGFest" width="345" height="65">
+                <a href="http://magwest.org" target="_blank">
+                    <img class="img-responsive" src="/img/magwest-2017-logo.png" alt="MAGFest" width="345" height="65">
                 </a>
             </p>
         </footer>
