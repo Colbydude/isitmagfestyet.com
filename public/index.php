@@ -1,7 +1,7 @@
 <?php
     $result = 'no';
 
-    // MAGWest 2017 Dates.
+    // MAGWest 2018 Dates.
     $dates = [
         '2018-01-04',
         '2018-01-05',
