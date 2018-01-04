@@ -56,7 +56,7 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body class="text-center">
+    <body class="text-center" <?php echo $result == 'yes' ? 'style="background-color: #E91E63;"' : ''; ?>>
         <div class="offset"></div>
         <div class="container home">
             <h1 class="<?php echo str_replace(' ', '-', $result); ?>"><?php echo strtoupper($result); ?></h1>
@@ -69,7 +69,7 @@
         <footer>
             <p class="magfest-logo">
                 <a href="http://super.magfest.org" target="_blank">
-                    <img class="img-responsive" src="/img/magfest-logo.png" alt="MAGFest" width="345" height="65">
+                    <img class="img-responsive" src="/img/<?php echo $result == 'yes' ? 'm2018logo' : 'magfest-logo'; ?>.png" alt="MAGFest" width="345" height="65">
                 </a>
             </p>
         </footer>
