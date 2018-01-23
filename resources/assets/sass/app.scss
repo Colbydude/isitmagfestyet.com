@@ -1,41 +1,37 @@
-@import "variables";
+// Imports.
+@import "~open-sans-fontface/open-sans.scss";
 
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/print";
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type";
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid";
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+// Screen sizes.
+$screen-xs-max: 479px;
+$screen-sm-max: 767px;
+$screen-md-max: 991px;
 
-@import "node_modules/open-sans-fontface/open-sans.scss";
-
-html, body, .offset
-{
-    height: 100%;
-}
-
-.offset, .home
-{
-    display: inline-block;
-    vertical-align: middle;
-}
-
-body
-{
-    background-color: black;
+// Styles.
+html, body {
     color: white;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 13px;
-    line-height: 1.428571429;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
 
-    &.magclassic
-    {
-        background-color: whitesmoke;
-        color: black;
-    }
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.content {
+    text-align: center;
 }
 
 a
@@ -52,8 +48,6 @@ h1
 {
     font-weight: 300;
     line-height: 1.1;
-    margin-bottom: 10px;
-    margin-top: 20px;
 
     &.almost, &.sort-of
     {
@@ -123,37 +117,21 @@ h1
 
 footer
 {
-    margin-top: -125px;
-    padding-top: 20px;
+    position: absolute;
+    bottom: 35px;
     width: 100%;
 
-    p
+    .magfest-logo
     {
-        margin: 0;
-
-        &.magfest-logo
+        img
         {
-            img
-            {
-                height: 65px;
-                margin: 0 auto;
-                width: auto;
+            height: 65px;
+            margin: 0 auto;
+            width: auto;
 
-                @media (max-width: $screen-xs-max)
-                {
-                    height: 35px;
-                    margin-top: 35px;
-                }
-            }
-        }
-
-        &.magclassic-logo
-        {
-            img
+            @media (max-width: $screen-sm-max)
             {
-                height: 100px;
-                margin: 0 auto;
-                width: auto;
+                height: 35px;
             }
         }
     }
