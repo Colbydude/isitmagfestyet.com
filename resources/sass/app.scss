@@ -34,12 +34,10 @@ html, body {
     text-align: center;
 }
 
-a
-{
+a {
     &,
     &:hover,
-    &:focus,
-    {
+    &:focus {
         color: white;
     }
 }
@@ -49,88 +47,71 @@ h1
     font-weight: 300;
     line-height: 1.1;
 
-    &.almost, &.sort-of
-    {
+    &.almost, &.sort-of {
         font-size: 175px;
 
-        @media (max-width: $screen-sm-max)
-        {
+        @media (max-width: $screen-sm-max) {
             font-size: 114px;
         }
 
-        @media (max-width: $screen-xs-max)
-        {
+        @media (max-width: $screen-xs-max) {
             font-size: 68px;
         }
     }
 
-    &.just-missed-it
-    {
+    &.just-missed-it {
         font-size: 160px;
 
-        @media (max-width: $screen-md-max)
-        {
+        @media (max-width: $screen-md-max) {
             font-size: 80px;
         }
 
-        @media (max-width: $screen-sm-max)
-        {
+        @media (max-width: $screen-sm-max) {
             font-size: 44px;
         }
 
-        @media (max-width: $screen-xs-max)
-        {
+        @media (max-width: $screen-xs-max) {
             font-size: 38px;
         }
     }
 
-    &.no
-    {
+    &.no {
         font-size: 240px;
 
-        @media (max-width: $screen-sm-max)
-        {
+        @media (max-width: $screen-sm-max) {
             font-size: 150px;
         }
 
-        @media (max-width: $screen-xs-max)
-        {
+        @media (max-width: $screen-xs-max) {
             font-size: 150px;
         }
     }
 
-    &.yes
-    {
+    &.yes {
         font-size: 240px;
 
-        @media (max-width: $screen-sm-max)
-        {
+        @media (max-width: $screen-sm-max) {
             font-size: 150px;
         }
 
-        @media (max-width: $screen-xs-max)
-        {
+        @media (max-width: $screen-xs-max) {
             font-size: 150px;
         }
     }
 }
 
-footer
-{
+footer {
     position: absolute;
     bottom: 35px;
     width: 100%;
 
-    .magfest-logo
-    {
-        img
-        {
+    .magfest-logo {
+        img {
             height: 65px;
             margin: 0 auto;
             width: auto;
 
-            @media (max-width: $screen-sm-max)
-            {
+            @media (max-width: $screen-sm-max) {
                 height: 35px;
             }
         }

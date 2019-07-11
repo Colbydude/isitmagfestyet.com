@@ -1,18 +1,18 @@
 <?php
     $bg_color = '#e91e63';                  // Background color.
     $date = date('Y-m-d');                  // Today's date.
-    $link = 'http://super.magfest.org';     // Link the logo will go to.
+    $link = 'https://super.magfest.org';    // Link the logo will go to.
     $logo = 'magfest-logo.png';             // Logo to show.
     $result = 'no';                         // End result to show.
 
     // MAGFest 2019 Dates.
     $dates = [
-        '2019-01-02',                       // Day Before.
-        '2019-01-03',
-        '2019-01-04',
-        '2019-01-05',
-        '2019-01-06',
-        '2019-01-07'                        // Day After.
+        '2020-01-01',                       // Day Before.
+        '2020-01-02',
+        '2020-01-03',
+        '2020-01-04',
+        '2020-01-05',
+        '2020-01-06'                        // Day After.
     ];
 
     if ($date == reset($dates)) {
