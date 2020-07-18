@@ -1,7 +1,2 @@
-/node_modules
-/public/css
-/public/fonts
-/public/js
-/public/mix-manifest.json
 .DS_Store
 Thumbs.db

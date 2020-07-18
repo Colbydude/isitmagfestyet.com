@@ -5,7 +5,7 @@
     $logo = 'magfest-logo.png';             // Logo to show.
     $result = 'no';                         // End result to show.
 
-    // MAGFest 2019 Dates.
+    // MAGFest 2020 Dates.
     $dates = [
         '2020-01-01',                       // Day Before.
         '2020-01-02',
@@ -43,6 +43,7 @@
         <meta property="og:site_name" content="Is It MAGFest Yet?">
         <meta property="og:description" content="Is It MAGFest Yet? The answer to the question everyone wants to know.">
 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         <link href="/css/app.css" rel="stylesheet">
         <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
 
