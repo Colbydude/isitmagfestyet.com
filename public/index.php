@@ -5,14 +5,14 @@
     $logo = 'magfest-logo.png';             // Logo to show.
     $result = 'no';                         // End result to show.
 
-    // MAGFest 2022 Dates.
+    // MAGFest 2023 Dates.
     $dates = [
-        '2022-01-05',                       // Day Before.
-        '2022-01-06',
-        '2022-01-07',
-        '2022-01-08',
-        '2022-01-09',
-        '2022-01-10'                        // Day After.
+        '2023-01-04',                       // Day Before.
+        '2023-01-05',
+        '2023-01-06',
+        '2023-01-07',
+        '2023-01-08',
+        '2023-01-09'                        // Day After.
     ];
 
     if ($date == reset($dates)) {
