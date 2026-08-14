@@ -1,19 +1,31 @@
 <?php
     $bg_color = '#e91e63';                  // Background color.
     $date = date('Y-m-d');                  // Today's date.
-    $link = 'https://super.magfest.org';    // Link the logo will go to.
-    $logo = 'magfest-logo.png';             // Logo to show.
+    // $link = 'https://super.magfest.org';    // Link the logo will go to.
+    // $logo = 'magfest-logo.png';             // Logo to show.
     $result = 'no';                         // End result to show.
 
-    // MAGFest 2026 Dates.
+    $link = 'https://magwest.org/';
+    $logo = 'https://media.magwest.org/wp-content/uploads/2025/10/08145304/West_2026_Logo_UT_NoBkg-768x253.png';
+
+    // MAGWest 2026 Dates.
     $dates = [
-        '2026-01-07',                       // Day Before.
-        '2026-01-08',
-        '2026-01-09',
-        '2026-01-10',
-        '2026-01-11',
-        '2026-01-12'                        // Day After.
+        '2026-08-13',                       // Day Before.
+        '2026-08-14',
+        '2026-08-15',
+        '2026-08-16',
+        '2026-08-17',                       // Day After.
     ];
+
+    // MAGFest 2026 Dates.
+    // $dates = [
+    //     '2026-01-07',                       // Day Before.
+    //     '2026-01-08',
+    //     '2026-01-09',
+    //     '2026-01-10',
+    //     '2026-01-11',
+    //     '2026-01-12'                        // Day After.
+    // ];
 
     if ($date == reset($dates)) {
         $result = 'almost';
@@ -68,7 +80,7 @@
         <footer>
             <div class="magfest-logo">
                 <a href="<?php echo $link; ?>" target="_blank">
-                    <img src="/img/<?php echo $logo; ?>" alt="MAGFest" width="345" height="65">
+                    <img src="<?php echo $logo; ?>" alt="MAGFest" width="345" height="65">
                 </a>
             </div>
         </footer>
