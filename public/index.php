@@ -1,31 +1,19 @@
 <?php
-    $bg_color = '#e91e63';                  // Background color.
+    $bgColor = '#2D372C';                 // Background color.
     $date = date('Y-m-d');                  // Today's date.
-    // $link = 'https://super.magfest.org';    // Link the logo will go to.
-    // $logo = 'magfest-logo.png';             // Logo to show.
+    $link = 'https://super.magfest.org';    // Link the logo will go to.
+    $logo = '/img/magfest-logo.png';        // Logo to show.
     $result = 'no';                         // End result to show.
 
-    $link = 'https://magwest.org/';
-    $logo = 'https://media.magwest.org/wp-content/uploads/2025/10/08145304/West_2026_Logo_UT_NoBkg-768x253.png';
-
-    // MAGWest 2026 Dates.
+    // MAGFest 2027 Dates.
     $dates = [
-        '2026-08-13',                       // Day Before.
-        '2026-08-14',
-        '2026-08-15',
-        '2026-08-16',
-        '2026-08-17',                       // Day After.
+        '2026-01-06',                       // Day Before.
+        '2026-01-07',
+        '2026-01-08',
+        '2026-01-09',
+        '2026-01-10',
+        '2026-01-11'                        // Day After.
     ];
-
-    // MAGFest 2026 Dates.
-    // $dates = [
-    //     '2026-01-07',                       // Day Before.
-    //     '2026-01-08',
-    //     '2026-01-09',
-    //     '2026-01-10',
-    //     '2026-01-11',
-    //     '2026-01-12'                        // Day After.
-    // ];
 
     if ($date == reset($dates)) {
         $result = 'almost';
@@ -65,7 +53,7 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body style="background-color: <?php echo $result == 'yes' ? $bg_color : 'black'; ?>">
+    <body style="background-color: <?php echo $result == 'yes' ? $bgColor : 'black'; ?>">
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <h1 class="<?php echo str_replace(' ', '-', $result); ?>"><?php echo strtoupper($result); ?></h1>
